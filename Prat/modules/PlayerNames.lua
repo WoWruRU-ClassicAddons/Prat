@@ -41,6 +41,34 @@ L:RegisterTranslations("enUS", function() return {
     ["Toggle the module on and off."] = true,
 } end)
 
+L:RegisterTranslations("ruRU", function() return {
+    ["PlayerNames"] = "PlayerNames",
+    ["Player name formating options."] = "Настройки форматирования имени собеседника.",
+    ["Brackets"] = "Скобки",
+    ["Square"] = "Квадратные",
+    ["Angled"] = "Треугольные",
+    ["None"] = "Нет",
+    ["Class"] = "Класс",
+    ["Random"] = "Случайно",
+    ["Sets style of brackets to use around player names."] = "Установить стиль скобок вокруг имени собеседника.",
+    ["Use common color"] = "Использовать общий цвет",
+    ["Toggle useing common color for unknown player names."] = "Вкл/Выкл использование общего цвета для неизвестных имен игроков.",
+    ["Set common color"] = "Установить общий цвет",
+    ["Change the common color of PlayerNames"] = "Изменить общий цвет имен игроков",
+    ["Use TabComplete"] = "Использовать TabComplete",
+    ["Toggle tab completion of player names."] = "Вкл/Выкл TabComplete в именах игроков.",
+	["Show Level"] = "Показывать уровень",
+    ["Toggle level showing."] = "Вкл/выкл отображения уровня собеседника.",
+	["Show Group"] = "Показывать группу",
+    ["Toggle raid group showing."] = "Вкл/выкл отображения рейдовой группы.",
+    ["Keep Info"] = "Хранить информацию",
+    ["Keep player information between session."] = "Хранить информацию о игроках между сессиями.",
+    ["Color Mode"] = "Режим цвета",
+    ["How to color Players name."] = "Как окрасить имя игрока.",
+    ["Toggle"] = "Вкл/Выкл",
+    ["Toggle the module on and off."] = "Вкл/Выкл модуль",
+} end)
+
 L:RegisterTranslations("zhCN", function() return {
 	["PlayerNames"] = "玩家姓名",
 	["Player name formating options."] = "玩家姓名格式选项。",

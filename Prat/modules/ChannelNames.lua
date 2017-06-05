@@ -44,6 +44,37 @@ L:RegisterTranslations("enUS", function() return {
     ["Toggle the module on and off."] = true,
 } end)
 
+L:RegisterTranslations("ruRU", function() return {
+    ["ChannelNames"] = "ChannelNames",
+    ["Channel name abbreviation options."] = "Настройки сокращения названий каналов.",
+    ["Replace"] = "Заменить",
+    ["Toggle replacing this channel."] = "Включить замену данного канала.",
+    ["Off"] = "Выкл",
+    ["Turn off this channel."] = "Выключить этот канал.",
+    ["Set"] = "Задать",
+    ["Channel %d"] = "Канал %d",
+    ["Say"] = "Сказать",
+    ["Whisper"] = "Шепот",
+	["Incoming Whisper"] = "Шепот",
+    ["Yell"] = "Крикнуть",
+    ["Guild"] = "Гильдия",
+    ["Party"] = "Группа",
+    ["Raid"] = "Рейд",
+    ["Raid Leader"] = "Лидер рейда",
+    ["Raid Warning"] = "Объявление рейду",
+    ["Officer"] = "Офицер",
+    ["Battleground"] = "Поле боя",
+    ["Battleground Leader"] = "Лидер поля боя",
+    ["%s settings."] = "Настройки канала \"%s\".",
+    ["Use a custom replacement for the chat %s text."] = "Использовать заданную замену текста %s канала.",
+    ["Show Space"] = "Показывать пробел",
+    ["Toggle adding space after channel replacement."] = "Вкл/Выкл добавление пробела после замены канала.",
+    ["Show Colon"] = "Показывать двоеточие",
+    ["Toggle adding colon after channel replacement."] = "Вкл/Выкл добавление двоеточия после замены канала.",
+    ["Toggle"] = "Вкл/Выкл",
+    ["Toggle the module on and off."] = "Вкл/Выкл модуль",
+} end)
+
 L:RegisterTranslations("zhCN", function() return {
 	["ChannelNames"] = "频道名称",
 	["Channel name abbreviation options."] = "频道名称缩写选项。",

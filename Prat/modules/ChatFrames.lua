@@ -19,6 +19,13 @@ L:RegisterTranslations("enUS", function() return {
     ["Toggle the module on and off."] = true,
 } end)
 
+L:RegisterTranslations("ruRU", function() return {
+    ["ChatFrames"] = "ChatFrames",
+    ["ChatFrame manipulation options."] = "Опции манипуляций с фреймом чата.",
+    ["Toggle"] = "Вкл/Выкл",
+    ["Toggle the module on and off."] = "Вкл/Выкл модуль",
+} end)
+
 L:RegisterTranslations("zhCN", function() return {
 		["ChatFrames"] = "聊天框架",
 		["ChatFrame manipulation options."] = "聊天框架设置选项。",

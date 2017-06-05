@@ -35,6 +35,28 @@ L:RegisterTranslations("enUS", function() return {
     ["Toggle the module on and off."] = true,
 } end)
 
+L:RegisterTranslations("ruRU", function() return {
+    ["StickyChannels"] = "StickyChannels",
+    ["Chat channel sticky options."] = "Опции прилипания каналов чата.",
+    ["ChatType"] = "ТипЧата",
+    ["Per chat type options."] = "Опции чат типа.",
+    ["Say"] = "Сказать",
+    ["Whisper"] = "Шепот",
+    ["Yell"] = "Крикнуть",
+    ["Party"] = "Группа",
+    ["Guild"] = "Гильдия",
+    ["Officer"] = "Офицер",
+    ["Raid"] = "Рейд",
+    ["RaidWarning"] = "Объявление рейду",
+    ["Battleground"] = "Поле боя",
+    ["Channel"] = "Канал",
+    ["Emote"] = "Эмоция",
+    ["%sSticky"] = "Липкая \"%s\"",
+    ["Toggles sticky on and off for %s."] = "Вкл/Выкл липкие %s.",
+    ["Toggle"] = "Вкл/Выкл",
+    ["Toggle the module on and off."] = "Вкл/Выкл модуль.",
+} end)
+
 L:RegisterTranslations("zhCN", function() return {
 	["StickyChannels"] = "固定频道",
 	["Chat channel sticky options."] = "固定聊天频道选项。",

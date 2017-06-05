@@ -35,6 +35,27 @@ L:RegisterTranslations("enUS", function() return {
 	["Back to channel list"] = true,
 } end)
 
+L:RegisterTranslations("ruRU", function() return {
+    ["Who"] = "Who",
+    ["Adds actions for channels and /chatwho."] = "Добавляет действия для каналов и /chatwho.",
+    ["List user(s) on channel."] = "Список пользователей канала.",
+    ["<channel name> (see /PRAT who chanlist)"] = "<название канала> (см.  /PRAT who chanlist)",
+    ["Chanlist"] = "Chanlist",
+    ["Channel List."] = "Список каналов.",
+    ["Join message"] = "Сообщение присоединения",
+    ["Toggle showing of join message."] = "Вкл/Выкл показ сообщения при присоед.",
+    ["Leave message"] = "Сообщение ухода",
+    ["Toggle showing of leave message."] = "Вкл/Выкл показ сообщения при уходе.",
+    ["GUI"] = "GUI",
+    ["Toggle showing information in a nice GUI or in default chat window."] = "Вкл/Выкл показать информации в хорошем GUI или в стандартном окне чата.",
+	["Toggle"] = "Вкл/Выкл",
+	["Toggle the module on and off."] = "Вкл/Выкл модуль.",
+
+	["Channels listing"] = "Список каналов",
+	["Who is on that chan"] = "Кто сейчас в этом канале",
+	["Back to channel list"] = "Вернуться к списку каналов",
+} end)
+
 L:RegisterTranslations("zhCN", function() return {
 	["Who"] = "查询",
 	["Adds actions for channels and /chatwho."] = "输入/chatwho列出频道和聊天对象.",

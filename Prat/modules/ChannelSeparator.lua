@@ -18,6 +18,13 @@ L:RegisterTranslations("enUS", function() return {
     ["Toggle the module on and off."] = true,
 } end)
 
+L:RegisterTranslations("ruRU", function() return {
+    ["ChannelSeparator"] = "ChannelSeparator",
+    ["Separates chat channels in chat setting menu."] = "Разделять каналы чата в меню настроек чата.",
+    ["Toggle"] = "Вкл/Выкл",
+    ["Toggle the module on and off."] = "Вкл/Выкл модуль.",
+} end)
+
 L:RegisterTranslations("zhCN", function() return {
 	["ChannelSeparator"] = "频道分离",
 	["Separates chat channels in chat setting menu."] = "分离聊天频道设置菜单。",

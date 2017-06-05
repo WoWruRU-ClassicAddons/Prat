@@ -27,6 +27,21 @@ L:RegisterTranslations("enUS", function() return {
     ["Toggle the module on and off."] = true,
 } end)
 
+L:RegisterTranslations("ruRU", function() return {
+    ["FontSize"] = "FontSize",
+    ["Chat window font size options."] = "Опции размера шрифта окна чата.",
+    ["SetMode"] = "УстановитьРежим",
+    ["Choose mode for setting font sizes."] = "Выберите режим для настройки размера шрифта.",
+    ["Set"] = "Установить",
+    ["Set the font size for each window."] = "Установить размер шрифта для всех окон.",
+    ["Chat%dFontSize"] = "РазмерШрифтаЧата%d",
+    ["Sets font size for chat window %d."] = "Установить размер шрифта для окна чата %d.",
+    ["SetAll"] = "УстановитьВсе",
+    ["Sets font size for all chat windows."] = "Устанавливает размер шрифта для всех окон чата.",
+    ["Toggle"] = "Вкл/Выкл",
+    ["Toggle the module on and off."] = "Вкл/Выкл модуль",
+} end)
+
 L:RegisterTranslations("zhCN", function() return {
 	["FontSize"] = "字体尺寸",
 	["Chat window font size options."] = "聊天窗口字体尺寸选项。",

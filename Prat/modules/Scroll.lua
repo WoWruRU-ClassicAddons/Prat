@@ -28,6 +28,21 @@ L:RegisterTranslations("enUS", function() return {
     ["Toggle the module on and off."] = true,
 } end)
 
+L:RegisterTranslations("ruRU", function() return {
+    ["Scroll"] = "Scroll",
+    ["Chat window scrolling options."] = "Настройки прокрутки окна чата.",
+    ["MouseScroll"] = "Прокрутка мышкой",
+    ["Toggle mousewheel scrolling in chat windows on and off."] = "Вкл/Выкл прокрутку окна чата колесиком мышки.",
+    ["Chat%dScrolling"] = "ПрокруткаЧата%d",
+    ["Toggles mouse scrolling on and off for chat window %d."] = "Вкл/Выкл прокрутку мышкой окно чата %d.",
+    ["Normal ScrollSpeed"] = "Нормальная скорость прокрутки",
+    ["Sets number of lines mousewheel will scroll."] = "Установить кол-во строк, которое будет прокручиваться колесиком мышки.",
+    ["Ctrl ScrollSpeed"] = "Ctrl скорость прокрутки",
+    ["Sets number of lines mousewheel will scroll when ctrl is pressed."] = "Устанавливает кол-во прокрученных строки колесиком мышки при нажатии ctrl.",
+    ["Toggle"] = "Вкл/Выкл",
+    ["Toggle the module on and off."] = "Вкл/Выкл модуль.",
+} end)
+
 L:RegisterTranslations("zhCN", function() return {
 	["Scroll"] = "滚动",
 	["Chat window scrolling options."] = "聊天窗口滚动选项。",

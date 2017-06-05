@@ -26,6 +26,21 @@ L:RegisterTranslations("enUS", function() return {
     ["Toggle the module on and off."] = true,
 } end)
 
+L:RegisterTranslations("ruRU", function() return {
+    ["UrlCopy"] = "UrlCopy",
+    ["URL formating options."] = "Настройки формата URL-адреса.",
+    ["Show Brackets"] = "Показывать скобки",
+    ["Toggle showing brackets on and off."] = "Вкл/Выкл отображение скобок.",
+    ["Use Popup"] = "Всплывающее окно",
+    ["Use popup window to show URL."] = "Использовать всплывающее окно для отображение ссылки.",
+    ["Color URL"] = "Цвет ссылки",
+    ["Toggle the URL color on and off."] = "Вкл/Выкл окраску ссылок.",
+    ["Set Color"] = "Цвет",
+    ["Change the color of the URL."] = "Изменение цвета ссылок.",
+    ["Toggle"] = "Вкл/Выкл",
+    ["Toggle the module on and off."] = "Вкл/Выкл модуль.",
+} end)
+
 L:RegisterTranslations("zhCN", function() return {
 	["UrlCopy"] = "复制超链接",
 	["URL formating options."] = "超链接格式选项。",

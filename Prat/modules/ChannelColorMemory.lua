@@ -21,6 +21,14 @@ L:RegisterTranslations("enUS", function() return {
     ["Toggle the module on and off."] = true,
 } end)
 
+L:RegisterTranslations("ruRU", function() return {
+    ["ChannelColorMemory"] = "ChannelColorMemory",
+    ["Remembers the colors of channels by channel name."] = "Запоминает цвета каналов по названию канала.",
+    ["(%w+)%s?(.*)"] = "(%w+)%s?(.*)",
+    ["Toggle"] = "Вкл/Выкл",
+    ["Toggle the module on and off."] = "Вкл/Выкл модуль.",
+} end)
+
 L:RegisterTranslations("zhCN", function() return {
 	["ChannelColorMemory"] = "频道颜色储存",
     ["Remembers the colors of channels by channel name."] = "还原频道名称的颜色设置",

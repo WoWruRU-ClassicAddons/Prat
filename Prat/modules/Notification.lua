@@ -19,6 +19,13 @@ L:RegisterTranslations("enUS", function() return {
     ["Toggle the module on and off."] = true,
 } end)
 
+L:RegisterTranslations("ruRU", function() return {
+    ["Notification"] = "Notification",
+    ["Chat channel notification options."] = "Опции уведомления канала чата.",
+    ["Toggle"] = "Вкл/Выкл",
+    ["Toggle the module on and off."] = "Вкл/Выкл модуль",
+} end)
+
 L:RegisterTranslations("zhCN", function() return {
     ["Notification"] = "通告",
     ["Chat channel notification options."] = "聊天频道通告选项。",

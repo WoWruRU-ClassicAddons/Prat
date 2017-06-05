@@ -28,6 +28,21 @@ L:RegisterTranslations("enUS", function() return {
     ["Toggle the module on and off."] = true,
 } end)
 
+L:RegisterTranslations("ruRU", function() return {
+    ["Buttons"] = "Кнопки",
+    ["Chat window menu and buttons options."] = "Настройки кнопок меню и окна чата.",
+    ["ChatMenu"] = "ЧатМеню",
+    ["Toggles chat menu on and off."] = "Вкл/выкл кнопки чата.",
+    ["ChatButtons"] = "ЧатКнопка",
+    ["Toggle chat windows buttons on and off."] = "Вкл/Выкл кнопок окна чата",
+    ["Chat%dButtons"] = "ЧатКнопка%d",
+    ["Toggles buttons on and off for chat window %d."] = "Вкл/Выкл кнопки окна чата %d.",
+    ["Show Reminder Button"] = "Показать кнопку напоминания",
+    ["Show reminder button when not at bottom of chat window."] = "Показать кнопку напоминания не в нижней части окна.",
+    ["Toggle"] = "Вкл/Выкл",
+    ["Toggle the module on and off."] = "Вкл/Выкл модуль",
+} end)
+
 L:RegisterTranslations("zhCN", function() return {
 	["Buttons"] = "按钮",
 	["Chat window menu and buttons options."] = "聊天窗口菜单及按钮选项。",

@@ -23,6 +23,17 @@ L:RegisterTranslations("enUS", function() return {
     ["Toggle the module on and off."] = true,
 } end)
 
+L:RegisterTranslations("ruRU", function() return {
+    ["Justify"] = "Justify",
+    ["Chat window justification options."] = "Опции выравнивания окна чата.",
+    ["Set"] = "Установить",
+    ["Set justify for each window."] = "Установить выравнивание для каждого окна.",
+    ["Chat%dJustify"] = "ВыравниваниеЧата%d",
+    ["Sets justification for chat window %d."] = "Установлено выравнивание окна чата %d.",
+    ["Toggle"] = "Вкл/Выкл",
+    ["Toggle the module on and off."] = "Вкл/Выкл модуль.",
+} end)
+
 L:RegisterTranslations("zhCN", function() return {
 	["Justify"] = "对齐",
 	["Chat window justification options."] = "聊天窗口对齐模式.",

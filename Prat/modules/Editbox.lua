@@ -32,6 +32,25 @@ L:RegisterTranslations("enUS", function() return {
     ["Toggle the module on and off."] = true,
 } end)
 
+L:RegisterTranslations("ruRU", function() return {
+    ["Editbox"] = "Editbox",
+    ["Editbox options."] = "Настройки поля ввода.",
+    ["Alpha"] = "Альфа",
+    ["Set the alpha of the editbox."] = "Установить альфа в поле ввода.",
+    ["Position"] = "Позиция",
+    ["Set position of editbox."] = "Установить положение поля ввода.",
+    ["Width"] = "Ширина",
+    ["Set the width of the editbox."] = "Установить ширину поля ввода.",
+    ["Locked"] = "Заблокировать",
+    ["Lock editbox position is undocked."] = "Поле ввода будет отстыковано.",
+    ["Arrowkeys"] = "Стрелки",
+    ["Toggle using arrowkeys in editbox without the alt key."] = "Переключение поля ввода с помощью стрелок, без кнопки alt.",
+    ["Sticky"] = "Липкий",
+    ["Toggle text clearing when editbox is closed."] = "Вкл/Выкл очистку текста когда поле ввода закрыто.",
+    ["Toggle"] = "Вкл/Выкл",
+    ["Toggle the module on and off."] = "Вкл/Выкл модуль",
+} end)
+
 L:RegisterTranslations("zhCN", function() return {
 	["Editbox"] = "输入框",
 	["Editbox options."] = "输入框选项。",

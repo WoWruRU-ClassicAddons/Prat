@@ -23,6 +23,16 @@ L:RegisterTranslations("enUS", function() return {
     ["Toggle the module on and off."] = true,
 } end)
 
+L:RegisterTranslations("ruRU", function() return {
+    ["ChatLink"] = "ChatLink",
+    ["Chat channel item link options."] = "Опции ссылки предмета в канале чата.",
+    ["ChatManager"] = "ChatManager",
+    ["Toggle sending items in Cirk\" ChatManager format."] = "Вкл/Выкл ChatManager формат отправки предмета.",
+    ["Toggle sending items in ChatLink format."] = "Вкл/Выкл отправку предмета в ChatLink формат.",
+    ["Toggle"] = "Вкл/Выкл",
+    ["Toggle the module on and off."] = "Вкл/Выкл модуль",
+} end)
+
 L:RegisterTranslations("zhCN", function() return {
 	["ChatLink"] = "聊天链接",
 	["Chat channel item link options."] = "聊天频道物品链接选项。",

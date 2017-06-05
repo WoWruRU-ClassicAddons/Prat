@@ -26,6 +26,19 @@ L:RegisterTranslations("enUS", function() return {
     ["Toggle the module on and off."] = true,
 } end)
 
+L:RegisterTranslations("ruRU", function() return {
+    ["Fading"] = "Fading",
+    ["Chat window text fading options."] = "Настройки затухания текста в окне чата.",
+    ["TextFade"] = "ЗатуханиеТекста",
+    ["Set text fading in chat windows on and off."] = "Вкл/Выкл затухание текста в окне чата.",
+    ["Chat%dFading"] = "ЗатуханиеТекста%d",
+    ["Toggles fading on and off for chat window %d."] = "Вкл/Выкл затухание в окне чата %d.",
+    ["FadeDuration"] = "ПродолжительностьЗатухания",
+    ["Set duration to show text before fading."] = "Установить продолжительность отображение текста, прежде чем они исчезнет.",
+    ["Toggle"] = "Вкл/Выкл",
+    ["Toggle the module on and off."] = "Вкл/Выкл модуль",
+} end)
+
 L:RegisterTranslations("zhCN", function() return {
 	["Fading"] = "淡出",
 	["Chat window text fading options."] = "聊天窗口文本淡入淡出选项。",

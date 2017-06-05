@@ -25,6 +25,17 @@ L:RegisterTranslations("enUS", function() return {
     ["NoTarget"] = true,
 } end)
 
+L:RegisterTranslations("ruRU", function() return {
+    ["TellTarget"] = "TellTarget",
+    ["Adds telltarget slash command (/tt)."] = "Добавляет слеш-команду 'сказать о цели' (/tt).",
+    ["Toggle"] = "Вкл/Выкл",
+    ["Toggle the module on and off."] = "Вкл/Выкл модуль.",
+    ["Target does not exist."] = "Цель не существует.",
+    ["Target is not a player."] = "Выбранная цель не является игроком.",
+    ["No target selected."] = "Нет выбранной цели.",
+    ["NoTarget"] = "Нет цели",
+} end)
+
 L:RegisterTranslations("zhCN", function() return {
 		["TellTarget"] = "通知目标",
 		["Adds telltarget slash command (/tt)."] = "添加通知目标命令(/tt)。",

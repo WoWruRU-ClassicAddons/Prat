@@ -28,6 +28,22 @@ L:RegisterTranslations("enUS", function() return {
     ["TellTarget"] = true,
 } end)
 
+L:RegisterTranslations("ruRU", function() return {
+    ["Prat ChannelNames"] = "Prat ChannelNames",
+    ["Officer Channel"] = "Офицерский Канал",
+	["Guild Channel"] = "Канал Гильдии",
+	["Party Channel"] = "Канал Группы",
+	["Raid Channel"] = "Канал Рейда",
+    ["Raid Warning Channel"] = "Канал объявлений рейду",
+    ["Battleground Channel"] = "Канал поля боя",
+    ["Say"] = "Сказать",
+    ["Yell"] = "Крикнуть",
+    ["Whisper"] = "Шепнуть",
+    ["Channel %d"] = "Канал %d",
+	["Prat TellTarget"] = "Prat Сказать цели",
+    ["TellTarget"] = "Сказать цели",
+} end)
+
 L:RegisterTranslations("zhCN", function() return {
 	["Prat ChannelNames"] = "Prat 频道名称",
 	["Officer Channel"] = "官员频道",

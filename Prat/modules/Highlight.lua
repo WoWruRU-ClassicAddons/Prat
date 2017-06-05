@@ -19,6 +19,13 @@ L:RegisterTranslations("enUS", function() return {
     ["Toggle the module on and off."] = true,
 } end)
 
+L:RegisterTranslations("ruRU", function() return {
+    ["Highlight"] = "Highlight",
+    ["Text highlighting options."] = "Опции подсветки текста.",
+    ["Toggle"] = "Вкл/Выкл",
+    ["Toggle the module on and off."] = "Вкл/Выкл модуль",
+} end)
+
 L:RegisterTranslations("zhCN", function() return {
 	["Highlight"] = "高亮",
 	["Text highlighting options."] = "文本高亮选项。",

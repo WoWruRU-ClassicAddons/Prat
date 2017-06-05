@@ -22,6 +22,17 @@ L:RegisterTranslations("enUS", function() return {
     ["Toggle the module on and off."] = true,
 } end)
 
+L:RegisterTranslations("ruRU", function() return {
+    ["History"] = "History",
+    ["Chat history options."] = "Настройки истории чата.",
+    ["Set"] = "Установить",
+    ["Set number of History lines for each window."] = "Установить количество строк истории для каждого окна.",
+    ["Chat%dHistory"] = "ИсторияЧата%d",
+    ["Sets history for chat window %d."] = "Установить историю для окна чата %d.",
+    ["Toggle"] = "Вкл/Выкл",
+    ["Toggle the module on and off."] = "Вкл/Выкл модуль.",
+} end)
+
 L:RegisterTranslations("zhCN", function() return {
 	["History"] = "历史",
 	["Chat history options."] = "聊天历史选项。",

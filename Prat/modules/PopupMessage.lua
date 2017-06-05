@@ -32,6 +32,25 @@ L:RegisterTranslations("enUS", function() return {
     ["Nickname"] = true,
 } end)
 
+L:RegisterTranslations("ruRU", function() return {
+    ["PopupMessage"] = "PopupMessage",
+    ["Shows messages with your name in a popup."] = "Отображать сообщение с вашим именем в всплывающем окне.",
+    ["Toggle"] = "Вкл/Выкл",
+    ["Show"] = "Показать",
+    ["ShowAll"] = "Показать все",
+    ["Toggle the module on and off."] = "Вкл/Выкл модуль",
+    ["Toggles popups on and off for chat window %d."] = "Вкл/Выкл всплывающие окна для окна чата %d.",
+    ["Toggle showing Popup settings for each window."] = "Вкл/Выкл всплывающие настройки для каждого окна.",
+    ["Chat%dPopupShow"] = "ПоказыватьВысплывающийЧат%d",
+    ["Toggles Popup on and off for all chat windows."] = "Вкл/Выкл всплывание для всех окон чата.",
+    ["Choose mode for showing popups."] = "Выбрать режим для отображение всплывающих окон.",
+    ["ShowMode"] = "ПоказатьРежим",
+    ["All"] = "Все",
+    ["Individual"] = "Индивидуальный",
+    ["An alternate name to show in popups."] = "Альтернативное название чтобы показать всплывающие окна.",
+    ["Nickname"] = "Ник",
+} end)
+
 L:RegisterTranslations("zhCN", function() return {
     ["PopupMessage"] = "弹出消息",
     ["Shows messages with your name in a popup."] = "在弹出窗口中显示包含自己名字的消息.",

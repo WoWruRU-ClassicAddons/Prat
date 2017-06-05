@@ -12,10 +12,16 @@ Dependencies: Ace2
 ]]
 
 local L = AceLibrary("AceLocale-2.2"):new("Prat")
+local waterfall = AceLibrary("Waterfall-1.0")
 
 L:RegisterTranslations("enUS", function() return {
     ["Prat"] = true,
     ["A framework for chat frame modules."] = true,
+} end)
+
+L:RegisterTranslations("ruRU", function() return {
+    ["Prat"] = "Prat",
+    ["A framework for chat frame modules."] = "Фреймворк для чата.",
 } end)
 
 L:RegisterTranslations("zhCN", function() return {
@@ -39,4 +45,6 @@ Prat.Options = {
     args = {}
 }
 
-Prat:RegisterChatCommand({"/prat"}, Prat.Options)
+Prat:RegisterChatCommand({"/pratcl"}, Prat.Options)
+Prat:RegisterChatCommand({"/prat"}, function() waterfall:Open('Prat') end)
+waterfall:Register('Prat', 'aceOptions', Prat.Options, 'title','Prat 1.0. Revision: 16703','colorR', 0.6, 'colorG', 0.7, 'colorB', 1) 
